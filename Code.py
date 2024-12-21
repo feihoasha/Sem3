@@ -12,7 +12,6 @@ from googletrans import Translator  # Импортируем класс Translat
 # Устанавливаем библиотеку langdetect для определения языка текста
 !pip install langdetect
 from langdetect import detect, DetectorFactory  # Импортируем функции detect и DetectorFactory
-тов
 
 # Загрузка данных из файла
 dn = pd.read_excel('Merged.xlsx')
