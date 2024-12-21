@@ -96,7 +96,7 @@ df = pd.read_excel('Changed.xlsx')
 namer = df['Rus'].dropna()
 namee = df['Eng'].dropna()
 
-# Применяем функцию определения алфавита к каждому имени и добавляем результат в новый столбец
+# Применяем функцию капитализации к каждому имени и добавляем результат в новый столбец
 df['CapR'] = namer.apply(cap)
 df['CapE'] = namee.apply(cap)
 
